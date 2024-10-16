@@ -1,0 +1,80 @@
+/* App Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+}
+.search-bar input {
+    padding: 5px;
+    font-size: 14px;
+}
+
+
+.profile-section {
+    display: flex;
+    align-items: center;
+}
+
+.profile-section .profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.dashboard {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.report {
+    display: flex;
+    gap: 20px;
+}
+
+.report-item {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.customer-management,
+.inventory-management,
+.billing-system {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
